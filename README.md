@@ -2,6 +2,8 @@
 ## Setup
 #### Create environment
 ```bash
+cd /pod/2/ke-lab/LUOZ
+
 # Create writable containers
 srun --job-name=bash --ntasks=1 --cpus-per-task=4 --time=8:00:00 --gres-flags=enforce-binding --mem=40000 --pty bash
 module load singularity
@@ -21,7 +23,7 @@ pip install --target=/Singularity/iM6A scikit-learn==0.20.3
 pip install --target=/Singularity/iM6A matplotlib==2.2.4
 pip install --target=/Singularity/iM6A keras==2.0.5
 ```
-#### Sbatch job
+#### Sbatch job.slurm
 ```bash
 #!/bin/bash
 #SBATCH --job-name=jupyter
