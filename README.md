@@ -1,6 +1,6 @@
-# iM6A: modeling m6A site-specific deposition by deep learning
-## Setup
-#### Create environment
+## iM6A: modeling m6A site-specific deposition by deep learning
+#### Setup
+##### Create environment
 ```bash
 cd /pod/2/ke-lab/LUOZ
 
@@ -23,7 +23,7 @@ pip install --target=/Singularity/iM6A scikit-learn==0.20.3
 pip install --target=/Singularity/iM6A matplotlib==2.2.4
 pip install --target=/Singularity/iM6A keras==2.0.5
 ```
-#### Sbatch job.slurm
+##### Sbatch job.slurm
 ```bash
 #!/bin/bash
 #SBATCH --job-name=jupyter
@@ -44,7 +44,7 @@ echo "executing jupyter on http://$(hostname):$PORT"
 singularity run --writable-tmpfs --bind /pod/2/ke-lab/LUOZ:/mnt --nv tensorflow1901/ jupyter notebook --no-browser --port=$PORT --ip=`hostname -i`
 ```
 
-## m6A Prediction
+#### m6A Prediction
 ```python
 import sys
 sys.path.append("Singularity/iM6A")
