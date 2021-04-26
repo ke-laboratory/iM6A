@@ -73,7 +73,7 @@ def categorical_crossentropy_2d(y_true, y_pred):
                    + y_true[:, :, 1]*kb.log(y_pred[:, :, 1]+1e-10))
 
 paths = ('Model/mouseRRACH10000_c{}.h5'.format(x) for x in range(1, 6))
-models = [load_model(resource_filename('m6AAI', x), custom_objects={'categorical_crossentropy_2d': categorical_crossentropy_2d}) for x in paths]
+models = [load_model(y, custom_objects={'categorical_crossentropy_2d': categorical_crossentropy_2d}) for y in paths]
 context = 10000
 
 ## Replace the input with your custom sequence
