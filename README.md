@@ -16,8 +16,9 @@ echo "executing jupyter on http://$(hostname):$PORT"
 jupyter notebook --no-browser --port=$PORT --ip=`hostname -i`
 
 # Install packages into an external path:
-conda activate iM6A
 conda create -n iM6A python=2.7
+conda activate iM6A
+cd /pod/2/ke-lab/LUOZ
 pip install --target=/Singularity/iM6A biopython==1.76
 pip install --target=/Singularity/iM6A scikit-learn==0.20.3
 pip install --target=/Singularity/iM6A matplotlib==2.2.4
