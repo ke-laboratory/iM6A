@@ -87,6 +87,6 @@ Probability = y[0, :, 1]
 
 ## Contact
 
-Zhiyuan Luo: Zhiyuan.Luo@jax.org / luozhiyuan0717@hotmail.com
+Zhiyuan Luo: luozhiyuan0717@hotmail.com
 
-Shengdong Ke: Shengdong.Ke@jax.org / kelab018@gmail.com
+Shengdong Ke: kelab018@gmail.com
