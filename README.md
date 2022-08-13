@@ -91,8 +91,6 @@ Zhiyuan Luo: luozhiyuan0717@hotmail.com
 
 Shengdong Ke: kelab018@gmail.com
 
-## Article
+## Cite this article
 
-Zhiyuan Luo, Jiacheng Zhang, Jingyi Fei, Shengdong Ke (2022). Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequence.
-
-doi: https://doi.org/10.1038/s41467-022-30209-7
+Luo, Z., Zhang, J., Fei, J. et al. Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequences. Nat Commun 13, 2720 (2022). https://doi.org/10.1038/s41467-022-30209-7
