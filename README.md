@@ -93,4 +93,4 @@ Shengdong Ke: kelab018@gmail.com
 
 ## Cite this article
 
-Luo, Z., Zhang, J., Fei, J., Ke, S.. Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequences. Nat Commun 13, 2720 (2022). https://doi.org/10.1038/s41467-022-30209-7
+Zhiyuan Luo, Jiacheng Zhang, Jingyi Fei & Shengdong Ke. Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequences. Nat Commun 13, 2720 (2022). https://doi.org/10.1038/s41467-022-30209-7
