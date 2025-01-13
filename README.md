@@ -1,4 +1,9 @@
 ## iM6A: modeling m6A site-specific deposition by deep learning
+
+To have a convenient setup for iM6A deep learning working environment, we recommend you to do the analysis using AMAZON AWS cloud computing system (https://aws.amazon.com/), and the detailed iM6A environment setup at AWS is provided in this pdf file https://github.com/ke-laboratory/iM6A/blob/main/AWS-G4dn-Ubuntu18.04.pdf
+
+The lines below are for non-AWS environment setup and could be less convienient comparing to AWS.
+
 #### Setup
 ##### Create environment
 ```bash
@@ -93,4 +98,4 @@ Shengdong Ke: kelab018@gmail.com
 
 ## Cite this article
 
-Zhiyuan Luo, Jiacheng Zhang, Jingyi Fei & Shengdong Ke. Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequences. Nat Commun 13, 2720 (2022). https://doi.org/10.1038/s41467-022-30209-7
+Zhiyuan Luo, Jiacheng Zhang, Jingyi Fei & Shengdong Ke. Deep learning modeling m6A deposition reveals the importance of downstream cis-element sequences. Nature Communications 13, 2720 (2022). https://doi.org/10.1038/s41467-022-30209-7
